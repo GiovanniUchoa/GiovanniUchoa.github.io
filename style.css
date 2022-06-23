@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url('Midias/background.jpg');
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+    background-color: rgba(119, 119, 124, 0.473);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.list li {
+    letter-spacing: 2px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    padding: 10px;
+    width: 25%;
+    margin-right: 40%;
+}
+
+.btn-menu {
+    display: block;
+    cursor: pointer;
+}
+  
+.btn-menu div {
+    width: 32px;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    margin: 8px;
+}
+
+.container {
+    padding: 20px;
+    list-style: none;
+    display: none;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.452);
+    height: 200px;
+}
+
+.mostrar {
+    padding: 20px;
+    list-style: none;
+    display: block;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.452);
+    height: 200px;
+}
+
+.materias {
+    margin-bottom: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo a {
+    margin-left: 20%;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.logo img {
+    margin-top: 30%;
+    margin-left: 12%;
+}
+
+.eu {
+    display: block;
+    margin-top: 7%;
+    margin-left: 8%;
+    align-items: center;
+}
+
+.div-eu {
+    width: 300px;
+    margin-left: 35%;
+    border: 5px solid;
+    border-radius: 5px;
+    border-color: rgb(107, 107, 107);
+}
+
+.texto-eu {
+    font-size: 30px;
+    margin-top: 5%;
+    margin-left: 28%;
+}
